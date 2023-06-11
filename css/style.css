@@ -85,6 +85,9 @@
     color: #4a76ee;
   }
   
+  .hero-section p {
+    font-size: 20px;
+  }
   
   .hero-section .text .links {
     margin-top: 25px;
@@ -109,6 +112,7 @@
   .hero-section .text .links .span {
     font: black;
   }
+   
   
   .hero-section .headshot {
     flex: 2;
@@ -129,7 +133,7 @@
   
   .skills-section h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
   }
   
   
@@ -164,36 +168,60 @@
   }
   
   /* SECTION 3: Testimony */
-  .testimony-section {
+  .projects-section {
     padding: 0 50px;
     margin-bottom: 100px;
   }
   
-  .testimony-section h2 {
+  .projects-section h2 {
     font-size: 35px;
     margin-bottom: 30px;
     text-align: center;
   }
 
-  .testimony-section h3 {
+  .projects-section h3 {
     font-size: 35px;
     margin-bottom: 30px;
     text-align: center;
   }
   
-  .testimony-section .projects {
+  .projects-section .projects {
     display: flex;
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
   }
+
   
-  .testimony-section .projects .project-details {
+  .projects-section .projects .project-details {
     text-align: center;
     flex: 1;
   }
+
+  .projects-section .projects .project-details p {
+    font-size: 20px;
+  }
+
+
+  .projects-section .projects .project-details a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2.5px solid var(--text-color);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;
+    font-size: 15px;
+  }
+
+  .projects-section .projects .project-details a:hover {
+    color: var(--link-color);
+    border: 2.5px solid var(--link-color);
+    border-radius: 5px;
+  }
   
-  .testimony-section .projects .project-details img {
+  .projects-section .projects .project-details img {
     width: 350px;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -202,17 +230,6 @@
     border: solid 2.5px #000000;
   }
   
-  .testimony-section .group .project-details p {
-    font-weight: 600;
-  }
-  
-  .testimony-section .group .project-details p:last-child {
-    font-weight: normal;
-  }
-  
-  .testimony-section .group .text {
-    flex: 8;
-  }
   
   /* SECTION 4: Contact */
   .contact-section {
