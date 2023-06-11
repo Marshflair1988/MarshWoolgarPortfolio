@@ -247,6 +247,7 @@
   }
   
   .contact-section .group .text {
+    font-size: 24px;
     flex: 3;
     margin-top: 20px;
   }
