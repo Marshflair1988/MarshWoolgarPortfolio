@@ -199,6 +199,10 @@
     color: var(--text-color);
   }
 
+  .projects-section .projects .project-details .description {
+    font-size: 15px;
+  }
+
 
   .projects-section .projects .project-details a {
     display: inline-block;
